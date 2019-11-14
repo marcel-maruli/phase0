@@ -42,35 +42,43 @@ header form button {background: transparent;border: 0px;}
 header form button:hover {color: blue;}
 
 #category {
-    margin: 20px; margin-top: 30px;padding: 0px;
-    display: grid;
+    margin: 10px; margin-top: 30px;padding: 0px;
+    display: grid; margin-left: 0px; width: 100%;
 }
 #category .grid .a{
-    padding: 10px; 
-    min-height: 30px;
-    width: 20%;
-    margin: 20px;
+    padding: 20px; 
+    height: 40px;
+    width: 18%;
+    font-size: 15px;
+    margin: 10px;
     border-radius: 30px;
     background: linear-gradient(to right, #ff0077, #ff0000);float: left;
 }
-#category .grid a .b {padding: 10px; 
-    min-height: 30px;
-    width: 20%;
-    margin: 20px;
+#category .grid a .b {
+    padding: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 18%;
+    font-size: 10px;
+    margin: 10px;
     border-radius: 30px;
     background: linear-gradient(to right, green,#d9ff00);float: left;}
     
-#category .grid a .c {padding: 10px; 
-        min-height: 30px;
-        width: 20%;
-        margin: 20px;
+#category .grid a .c {padding: 20px; 
+    margin-left: 20px;    
+    height: 38px;
+        width: 18%;
+        font-size: 15px;
+        margin: 10px;
         border-radius: 30px;
-        background: linear-gradient(to right, purple,#ff009d);float: left;}
+        background: purple;float: left;}
 
-#category .grid a .d {padding: 10px; 
-            min-height: 30px;
-            width: 20%;
-            margin: 20px;
+#category .grid a .d {padding: 20px; 
+            height: 38px;
+            margin-left: 20px;
+            width: 18%;
+            font-size: 15px;
+            margin: 10px;
             border-radius: 30px;
             background: linear-gradient(to right, #0037ff,#00e5ff);float: left;}
         
@@ -139,6 +147,6 @@ border-bottom: black 0.5px solid;}
 #channel p{float: right;margin-top: 10px;}
 footer{background: linear-gradient(to top, blue, white);}
 footer #panduan {margin: 0px;padding: 55px;justify-content: center;justify-items: center;text-align: center;}
-footer #panduan a{padding: 30px; text-decoration: none;color:purple; font-size: 20px;}
+footer #panduan a{padding: 20px; text-decoration: none;color:purple; font-size: 15px;}
 footer #panduan a:hover{color: red;font-weight: bold; }
 footer h1 {text-align: center; margin: 0px;color:white;padding: 40px;}
