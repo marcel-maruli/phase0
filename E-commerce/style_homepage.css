@@ -14,7 +14,7 @@ body {
 }
 
 #navbar {
-    padding-top: 50px;background: linear-gradient(to right, blue, #4400ff); width: 100%;}
+    padding-top: 50px;background: #05A8AA; width: 100%;}
 #navbar nav li {
     padding-top: 5px;
     padding-left:  30px; ; display: inline; float: right; margin-bottom: 5px;
@@ -23,7 +23,7 @@ body {
     text-decoration: none; float: left;
     font-size: 15px ; color: white; margin-bottom: 5px;
 }
-#navbar h1 a:hover {color:black;}
+#navbar h1 a:hover {color:blue;}
 #navbar nav li a{
     text-decoration: none; 
     text-transform: capitalize;
@@ -33,12 +33,14 @@ body {
     color: white;
 }
 
-header {background: linear-gradient(to top, #4400ff, #96abff); width: 100%;position: fixed;z-index: 10;}
+header {background: linear-gradient(to top, #05A8AA, white); width: 100%;position: fixed;z-index: 10;}
 header label {color: white;}
 header #title a {float: left;color: white;text-decoration: none;}
-header #title a:hover {color: black;}
+header #title a:hover {color: blue;}
 header form {float: right;}
 header form button {background: transparent;border: 0px;}
+header form button a {text-decoration: none; color: #4a4a4a}
+header form button a:hover{color: blue;}
 header form button:hover {color: blue;}
 
 #category {
@@ -52,7 +54,7 @@ header form button:hover {color: blue;}
     font-size: 15px;
     margin: 10px;
     border-radius: 30px;
-    background: linear-gradient(to right, #ff0077, #ff0000);float: left;
+    background:#05A8AA;float: left;
 }
 #category .grid a .b {
     padding: 20px;
@@ -62,7 +64,7 @@ header form button:hover {color: blue;}
     font-size: 10px;
     margin: 10px;
     border-radius: 30px;
-    background: linear-gradient(to right, green,#d9ff00);float: left;}
+    background: #05A8AA;float: left;}
     
 #category .grid a .c {padding: 20px; 
     margin-left: 20px;    
@@ -71,7 +73,7 @@ header form button:hover {color: blue;}
         font-size: 15px;
         margin: 10px;
         border-radius: 30px;
-        background: purple;float: left;}
+        background: #05A8AA;float: left;}
 
 #category .grid a .d {padding: 20px; 
             height: 38px;
@@ -80,9 +82,9 @@ header form button:hover {color: blue;}
             font-size: 15px;
             margin: 10px;
             border-radius: 30px;
-            background: linear-gradient(to right, #0037ff,#00e5ff);float: left;}
+            background: #05A8AA;float: left;}
         
-#category .grid a:hover{color:rosybrown ;}
+#category .grid a:hover{color:blue ;}
 
 #category .grid a{
     height: 30px;
@@ -111,7 +113,7 @@ main .boxa .star {width: 100px;}
 main .boxa .loc {width: 20px;}
 main h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.3px;
     text-align: left;
@@ -122,13 +124,14 @@ main .boxa h2:hover{color: rosybrown;}
   
 img {
     width: 100%;
+    margin-top: 10px;
     height: auto;}
 
 #boxes .container{
-    margin-left: 50px;
-    width: 30%;
+    margin-left: 100px;
+    width: 20%;
     float: left;    
-    background: #f5f5f5 !important;  
+    background: ;  
     display: grid;}
 
 #boxes button{padding: 10px; margin-top: 10px;width: 70%;
@@ -145,7 +148,7 @@ border-bottom: black 0.5px solid;}
     float: left; margin-top: 10px;
 }
 #channel p{float: right;margin-top: 10px;}
-footer{background: linear-gradient(to top, blue, white);}
+footer{background: linear-gradient(to top, #05A8AA, white);}
 footer #panduan {margin: 0px;padding: 55px;justify-content: center;justify-items: center;text-align: center;}
 footer #panduan a{padding: 20px; text-decoration: none;color:purple; font-size: 15px;}
 footer #panduan a:hover{color: red;font-weight: bold; }

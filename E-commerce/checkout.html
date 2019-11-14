@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700|Oswald:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <section class="checkout">
+        <h1>Check Out</h1>
+        <article class="product">
+            <img src="https://cdn.pixabay.com/photo/2019/11/02/20/50/coffee-4597416_960_720.jpg">
+        </article>
+
+        <div class="des">
+            <h2> NAMA ITEM</h2>
+            <ul>
+                <li class="harga"> Rp.xxxx.xxxx</li>
+                <li> Berat 1000 gr</li>
+                <li> Kategori > Elektronik</li>
+                <li> Quantity<br>
+                    <select class="qty">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsam porro magnam, ut magni, minima
+                pariatur eligendi aperiam blanditiis expedita, fugiat quod quidem sequi recusandae! Error dolorum aut
+                officiis optio.</p>
+                <br>
+                <textarea name="message" rows="5" cols="60" placeholder="Catatan tambahan ect.ukuran,warna,tambahan"></textarea>
+                <br>
+                <div class="tombol">
+                <input type="button" value="Beli">
+                <input type="button" value="Tambah Keranjang">
+                </div>
+        </div>
+        <div class="kirim">
+            <h3>Estimasi Ongkos Kirim</h3>
+            <br>
+            <label for="Provisi">Provinsi</label>
+            <br>
+            <select>
+                <option value="prov">Jakarta Utara</option>
+                <option value="prov">Jakarta Selatan</option>
+                <option value="prov">Jakarta Pusat</option>
+                <option value="prov">Jakarta Barat</option>
+            </select>
+            <br>
+            <label for="Provisi">Kecamatan</label>
+            <br>
+            <select>
+                <option value="prov">Menteng Atas</option>
+                <option value="prov">Setia Budi</option>
+                <option value="prov">Kebayoran Baru</option>
+                <option value="prov">Kebayoran Lama</option>
+            </select>
+            <br>
+            <label for="Kode Pos">Kode Pos</label>
+            <br>
+            <input type="text" name="kodepos">
+            <br>
+            <label for="waktu">Waktu Pengiriman</label>
+            <br>
+            <input type="radio" name="gender" value="male" checked> Reguler 
+            <input type="radio" name="gender" value="female"> Express
+            <input type="radio" name="gender" value="other"> Same Day
+            <br>
+            <input type="button" value="Check Ongkos Kirim">
+        </div>
+    </section>
+</body>
+
+</html>

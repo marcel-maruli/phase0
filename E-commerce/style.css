@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.checkout h1 {
+    background-color: #05A8AA;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+.product{
+
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.product img{
+    width: 400px;
+    height: 500px;
+    border: 5px solid gray;
+    border-radius: 10%;
+    padding: 10px;
+}
+.des{
+    float: left;
+    width: 45%;
+    color: gray;    
+}
+
+.des h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 0;
+    border-bottom: 1px solid grey;
+    width: 95%;
+}
+
+p{
+    text-align: justify;
+    margin: 10px 40px 10px 10px;
+}
+
+.harga {
+    color: indianred;
+    font-size: 40px;
+}
+
+li {
+    margin: 5px;
+}
+
+.qty {
+    margin: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 60px;
+}
+
+.kirim{
+    float: left;
+    width: 25%;
+}
+
+.tombol{
+    text-align: center;
+}
+
+.tombol input{
+    height: 40px;
+    width: 220px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgb(41, 172, 91);
+    color: white;
+    border-radius: 15px;
+}
+
+.kirim {
+    background-color:rgba(192, 192, 192, 0.315); 
+    height: 535px;
+}
+
+.kirim h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: silver;
+}
+
+label {
+    margin-left: 10px;
+    margin-bottom: 40px;
+    color: slategray;
+}
+
+input[type=text], select {
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+    width: 80%;
+}
+
+input[type=button]{
+    margin: 30px 0px 0px 10px;
+    height: 40px;
+}
+
