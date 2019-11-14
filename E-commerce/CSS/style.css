@@ -71,6 +71,10 @@ li {
 .tombol{
     text-align: center;
 }
+.tombol a {
+    text-decoration: none;
+
+}
 
 .tombol input{
     height: 40px;

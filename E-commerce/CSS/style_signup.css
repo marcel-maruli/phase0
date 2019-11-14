@@ -1,0 +1,31 @@
+body{
+    margin: auto;
+    padding: auto;
+    background: #bffff4;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+form {
+    width: 400px;
+    margin: 60px auto;
+    padding: 50px 70px;
+    background: white;align-content: center;
+}
+form label {
+    margin-left: 20px;
+}
+form .kotak{
+    width: 80%;
+    margin-left: 20px;
+}
+form a {
+    text-decoration: none;
+}
+form .daftar {
+    width: 85%; margin: 20px;
+}
+form .daftar:hover {color: blue;}

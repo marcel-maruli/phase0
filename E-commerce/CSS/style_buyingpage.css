@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+    font-size: 15px;
+    overflow: hidden;
+}
+.checkout h1 {
+    background-color: #05A8AA;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+.container {
+    text-align: center;
+    height:250px;
+    margin: 30px;
+    padding: 20px;
+}
+.container a{
+    text-decoration: none;
+    color: blue;
+}
+.container a:hover{
+    color: black;
+}
+
+footer{background: linear-gradient(to top, #05A8AA, white);margin: 0px; padding: 20px;}
+footer #panduan {height: 100px;;margin: 0px;padding: 0px;justify-content: center;justify-items: center;text-align: center;}
+footer #panduan a{padding: 20px; text-decoration: none;color:purple; font-size: 15px;}
+footer #panduan a:hover{color: red;font-weight: bold; }
+footer h1 {text-align: center; margin: 0px;color:white;padding: 10px;}
